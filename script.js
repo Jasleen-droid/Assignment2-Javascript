@@ -24,3 +24,17 @@ class Smoothie {
 
         return basePrice; // Return the total price
     }
+// Method: Create Description
+ 
+    getDescription() {
+        // Returns a formatted HTML string showing the smoothie order
+        return `
+            <h2>✅ Your Smoothie Order</h2>
+            <p><strong>Size:</strong> ${this.size}</p>
+            <p><strong>Base:</strong> ${this.base}</p>
+            <p><strong>Fruits:</strong> ${this.fruits.length > 0 ? this.fruits.join(", ") : "None"}</p>
+            <p><strong>Extras:</strong> ${this.extras.length > 0 ? this.extras.join(", ") : "None"}</p>
+            <p><strong>Total Price:</strong> $${this.price.toFixed(2)}</p>
+        `;
+    }
+}
