@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fd70b7);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+select, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.checkbox-group label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button {
+    background: #d61c8c;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fa0101;
+}
+
+#orderSummary {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff5e1;
+    font-size: 16px;
+}
